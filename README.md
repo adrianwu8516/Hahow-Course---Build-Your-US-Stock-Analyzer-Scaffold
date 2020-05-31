@@ -6,9 +6,13 @@
 
 ### 理想中的 Before and After
 
-![課程示意圖](https://i.imgur.com/utnWhVV.jpg "課程示意圖")
+每日報表優化             |  簡單的觀測網站
+:-------------------------:|:-------------------------:
+![課程示意圖](https://i.imgur.com/utnWhVV.jpg "課程示意圖")  |  ![網站示意圖](https://i.imgur.com/mnQS5vy.png "網站示意圖")
 
-![網站示意圖](https://i.imgur.com/mnQS5vy.png "網站示意圖")
+ETF數據報表                 |  股票歷史數據報表1                 |  股票歷史數據報表2
+:-------------------------:|:-------------------------:|:-------------------------:
+![ETF數據報表](https://i.imgur.com/X7z9o3S.png "ETF數據報表") | ![股票歷史數據報表1](https://i.imgur.com/nxIiWwa.png "股票歷史數據報表1 ") | ![股票歷史數據報表2](https://i.imgur.com/ECRbET7.png "股票歷史數據報表2")
 
 ### 課程總共實作項目
 
