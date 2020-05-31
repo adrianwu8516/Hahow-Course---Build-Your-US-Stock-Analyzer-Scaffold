@@ -1,4 +1,4 @@
-# Hahow-Course---Build-Your-US-Stock-Analyzer-Scaffoldbr
+# Hahow-Course---Build-Your-US-Stock-Analyzer-Scaffold
 
 為了 Hahow 美股爬蟲課程所設計的一個基本的股票爬蟲，學員匯入自己的 Google Apps Script 後，即可每天收到一封昨天股票資訊的監測清單，在接下來的課程中，我會逐步帶你不斷擴充這封簡單的信件，讓他逐步擴充功能，比較每天數據變化，儲存並建立自己的資料庫，甚至是做出自己的小股票網站，讓你可以跟大家分享自己的股票觀測清單！
 
