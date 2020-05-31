@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <h2>我的股票每日監測服務</h2>
+    <div style="overflow-x:auto;">
+    <table style="height: 30px; width:100%;" cellspacing="6">
+      <tbody>
+        <tr>
+          <td>名稱</td>
+          <td>收盤價</td>
+          <td>漲跌幅</td>
+          <td>市盈率</td>
+          <td>市淨率</td>
+          <td>市銷率</td>
+          <td>EPS</td>
+          <td>殖利率</td>
+        </tr>
+        <? for(var i in stockInfo){ ?>
+        <tr>
+         <td><?= stockInfo[i].name ?> (<?= stockInfo[i].symbol ?>)</td>
+          <td><?= stockInfo[i].close ?></td>
+          <td><?= parseFloat(stockInfo[i].changeRatio) * 100 ?>%</td>
+          <td><?= stockInfo[i].pe ?></td>
+          <td><?= stockInfo[i].pb ?></td>
+          <td><?= stockInfo[i].ps ?></td>
+          <td><?= stockInfo[i].eps ?></td>
+          <td><?= parseFloat(stockInfo[i].yield) * 100 ?>%</td>
+        </tr>
+        <? } ?>
+      </tbody>
+    </table>
+    </div>
+  </body>
+</html>
